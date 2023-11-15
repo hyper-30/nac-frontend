@@ -9,12 +9,11 @@
           {{ $t('common.login_create') }}
         </h3>
       </div>
-      <social-auth />
-      <div class="separator">
-        <p>
-          {{ $t('common.register_or') }}
-        </p>
-      </div>
+      <!-- <social-auth /> -->
+      <p class="text-center">
+        We just need your email or phone number to get started.
+      </p>
+      <br>
       <v-form
         ref="form"
         v-model="valid"
@@ -22,43 +21,11 @@
         <v-row class="spacing3">
           <v-col cols="12" sm="12" class="px-3">
             <v-text-field
-              v-model="name"
-              :label="$t('common.register_name')"
-              :rules="requiredRules"
-              color="secondary"
-              name="name"
-              required
-            />
-          </v-col>
-          <v-col cols="12" sm="12" class="px-3">
-            <v-text-field
               v-model="email"
-              :label="$t('common.register_email')"
+              label="Email or Phone"
               :rules="emailRules"
               color="secondary"
               name="email"
-              required
-            />
-          </v-col>
-          <v-col cols="12" md="6" class="px-3">
-            <v-text-field
-              v-model="password"
-              :label="$t('common.register_password')"
-              :rules="requiredRules"
-              color="secondary"
-              type="password"
-              name="email"
-              required
-            />
-          </v-col>
-          <v-col cols="12" md="6" class="px-3">
-            <v-text-field
-              v-model="confirmPassword"
-              :label="$t('common.register_confirm')"
-              :rules="passwordRules"
-              color="secondary"
-              type="password"
-              name="confirm"
               required
             />
           </v-col>
@@ -98,12 +65,12 @@
 </style>
 
 <script>
-import SocialAuth from './SocialAuth';
+// import SocialAuth from './SocialAuth';
 import AuthFrame from './AuthFrame';
 
 export default {
   components: {
-    SocialAuth,
+    // SocialAuth,
     AuthFrame,
   },
   data() {
@@ -112,8 +79,8 @@ export default {
       email: '',
       name: '',
       emailRules: [
-        v => !!v || 'E-mail is required',
-        v => /.+@.+\..+/.test(v) || 'E-mail must be valid',
+        v => !!v || 'E-mail or Phone is required',
+        v => /.+@.+\..+/.test(v) || 'E-mail or Phone must be valid',
       ],
       password: '',
       confirmPassword: '',

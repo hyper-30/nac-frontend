@@ -4,10 +4,11 @@
       Pricing and Plan
     </h3>
     <p class="use-text-subtitle2 text-center mb-4">
-      Curabitur egestas consequat lorem, vel fermentum augue porta id.
+      We are going to talk about this. <br>
+      Schedule a demo with us, instead of bitting the story.
     </p>
     <div class="pricing-wrap">
-      <v-row align="center">
+      <v-row align="center" class="blur">
         <v-col
           v-for="(tier, index) in tiers"
           :key="index"
@@ -16,6 +17,7 @@
           cols="12"
           class="px-5"
         >
+          ß
           <pricing-card
             :title="tier.title"
             :subheader="tier.subheader"
@@ -26,12 +28,29 @@
           />
         </v-col>
       </v-row>
+      <div class="schedule-call">
+        <v-btn color="primary" large class="mt-10" @click="scheduleDemo">
+          Schedule a call
+        </v-btn>
+      </div>
     </div>
   </v-container>
 </template>
 
 <style scoped lang="scss">
 @import './pricing-style';
+
+.pricing-wrap {
+  position: relative;
+}
+
+.schedule-call {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
 </style>
 
 <script>
@@ -53,7 +72,7 @@ export default {
         },
         {
           title: 'Personal',
-          price: '5',
+          price: '15',
           description: [
             '15 users included',
             '10 GB of storage',
@@ -65,7 +84,7 @@ export default {
         {
           title: 'Pro',
           subheader: 'Most popular',
-          price: '15',
+          price: '500',
           description: [
             '20 users included',
             '10 GB of storage',
@@ -77,7 +96,7 @@ export default {
         },
         {
           title: 'Enterprise',
-          price: '30',
+          price: '599999',
           description: [
             '50 users included',
             '30 GB of storage',
@@ -90,5 +109,16 @@ export default {
       ],
     };
   },
+  methods: {
+    scheduleDemo() {
+      // Add your code to schedule a demo here
+    },
+  },
 };
 </script>
+
+<style>
+  .blur {
+    filter: blur(5px);
+  }
+</style>

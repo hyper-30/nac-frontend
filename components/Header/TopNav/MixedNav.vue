@@ -23,7 +23,10 @@
         v-text="$t('starter.header_'+item.name)"
       />
     </template>
-    <v-menu
+    <v-btn href="/technology">
+      Technology
+    </v-btn>
+    <!-- <v-menu
       :open-on-hover="hover"
       :position-x="0"
       max-height="480"
@@ -77,7 +80,7 @@
           </v-row>
         </v-container>
       </div>
-    </v-menu>
+    </v-menu> -->
   </div>
 </template>
 

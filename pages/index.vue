@@ -14,33 +14,33 @@
             <feature />
           </v-container>
         </div>
-        <div
+        <!-- <div
           id="counter"
           class="page-section"
         >
           <counter dark />
-        </div>
-        <div
+        </div> -->
+        <!-- <div
           id="testimonials"
           class="space-top"
         >
           <Testimonials />
-        </div>
+        </div> -->
         <div
           id="pricing"
           class="space-top"
         >
           <pricing />
         </div>
-        <div
+        <!-- <div
           id="blog"
           class="space-top space-bottom"
         >
           <blog />
-        </div>
-        <div id="subscribe">
+        </div> -->
+        <!-- <div id="subscribe">
           <subscribe />
-        </div>
+        </div> -->
       </div>
       <main-footer />
       <hidden point="smDown">

@@ -12,7 +12,7 @@
             data-aos-duration="600"
           >
             <h3 class="text-center text-md-start use-text-title mb-6">
-              Lorem ipsum dolor
+              Tired of configuring your equipment?
             </h3>
           </div>
           <div
@@ -21,9 +21,9 @@
             data-aos-duration="600"
           >
             <p class="text-center text-md-start">
-              Quos blanditiis tenetur unde suscipit,
-              quam beatae rerum inventore consectetur,
-              neque doloribus.
+              With our solution, you can configure your equipment once and never have to touch it again.
+              We will take care of the rest, so you can focus on what matters. Not just that,
+              we will also provide you support for your equipment.
             </p>
           </div>
         </v-col>
@@ -90,8 +90,8 @@
             data-aos="fade-left"
             data-aos-duration="600"
           >
-            <h3 class="text-center text-md-start use-text-title mb-6 display-2">
-              Lorem ipsum dolor
+            <h3 class="text-center text-md-start use-text-title mb-7 display-3">
+              You already have a network-solution? No problem.
             </h3>
           </div>
           <div
@@ -100,9 +100,9 @@
             data-aos-duration="600"
           >
             <p class="text-center text-md-start text">
-              Quos blanditiis tenetur unde suscipit,
-              quam beatae rerum inventore consectetur,
-              neque doloribus.
+              Let's say you already have a network-solution, but you are not satisfied with it.
+              We can help you with that. We can integrate our solution with your existing network.
+              We can also help you with the migration process.
             </p>
           </div>
         </v-col>
@@ -119,7 +119,7 @@
               data-aos-duration="600"
             >
               <h3 class="use-text-title mb-6 display-2">
-                Lorem ipsum dolor
+                Awesome Network Controll with - My Clouddle
               </h3>
             </div>
             <div
@@ -128,9 +128,9 @@
               delay="0.3s"
             >
               <p class="text">
-                Quos blanditiis tenetur unde suscipit,
-                quam beatae rerum inventore consectetur,
-                neque doloribus.
+                ClouddleNAC Provides dashboards for everyone. <br>
+                Whether you are a guest, manager or an admin, <br>
+                you can take a set of actions to make your life easier.
               </p>
             </div>
             <div

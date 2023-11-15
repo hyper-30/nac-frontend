@@ -35,8 +35,8 @@
             variant="text"
             @click="gotoSlide(0)"
           >
-            <strong>First Slide</strong>
-            Interdum et malesuada fames ac ante
+            <strong>For Guests</strong>
+            Simple and effective way to <br> manage your network.
           </v-btn>
           <v-divider class="divider" vertical inset />
           <v-btn
@@ -44,8 +44,8 @@
             variant="text"
             @click="gotoSlide(1)"
           >
-            <strong>Second Slide</strong>
-            Interdum et malesuada fames ac ante
+            <strong>For Managers</strong>
+            Convinient way to manage <br> Networks and Access.
           </v-btn>
           <v-divider class="divider" vertical inset />
           <v-btn
@@ -53,8 +53,9 @@
             variant="text"
             @click="gotoSlide(2)"
           >
-            <strong>Third Slide</strong>
-            Interdum et malesuada fames ac ante
+            <strong>For Everyone</strong>
+            Effective way to to oversee topology <br>
+            and manage your amenities.
           </v-btn>
         </nav>
       </v-container>

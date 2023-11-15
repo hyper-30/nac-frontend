@@ -18,7 +18,7 @@
     "form_terms": "I have read and accept the Terms of",
     "form_privacy": "Service & Privacy Policy *",
     "form_send": "Send Message",
-    "login": "Login",
+    "login": "My Clouddle",
     "login_create": "Create new account",
     "login_or": "Or login with email",
     "login_email": "Email",
@@ -26,7 +26,7 @@
     "login_remember": "Remember",
     "login_forgot": "Forgot Password",
     "continue": "Continue",
-    "auth_desc": "A platform with efficient integration of many features and so much more",
+    "auth_desc": "Single registration to access Clouddle. Anywhere.",
     "login_title": "Welcome back",
     "login_subtitle": "Please login to continue",
     "register": "register",
@@ -37,7 +37,7 @@
     "register_password": "Password",
     "register_confirm": "Confirm Password",
     "register_title": "Nice to meet you :)",
-    "register_subtitle": "Just register to join with us",
+    "register_subtitle": "Register for our Service",
     "accept": "Accept",
     "header_language": "language",
     "header_theme": "theme mode",
@@ -148,7 +148,7 @@
     "header_pricing": "pricing",
     "header_blog": "blog",
     "header_subscribe": "subscribe",
-    "banner_title": "Welcome to Starter Project",
-    "banner_subtitle": "Create your project from scratch with main components and basic styles."
+    "banner_title": "Welcome to Clouddle NAC",
+    "banner_subtitle": "A platform with efficient PMS integration with hardware agnostic flavor."
   }
 }

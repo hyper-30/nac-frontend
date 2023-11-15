@@ -1,15 +1,15 @@
 const brand = {
   starter: {
-    name: 'Starter',
-    desc: 'Awrora Starter Template',
-    prefix: 'awrora',
-    footerText: 'Awrora Theme All Rights Reserved 2020',
-    logoText: 'Awrora Theme',
-    projectName: 'Starter Project',
-    url: 'awrora.ux-maestro.com',
+    name: 'Clouddle',
+    desc: 'Clouddle Network Solution',
+    prefix: 'clouddle',
+    footerText: 'Clouddle - Powerfull Network Access Controll - 2023',
+    logoText: 'Clouddle NAC',
+    projectName: 'Clouddle NAC',
+    url: 'cloudd.le',
     img: '/images/starter-logo.png',
     notifMsg:
-      'Donec sit amet nulla sed arcu pulvinar ultricies commodo id ligula.',
+      'Clouddle NAC - Powerfull Network Access Controll - 2023',
   },
 };
 

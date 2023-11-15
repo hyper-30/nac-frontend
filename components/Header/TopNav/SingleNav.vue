@@ -19,9 +19,9 @@
         v-text="$t('starter.header_'+item.name)"
       />
     </template>
-    <v-btn href="/sample-pages" variant="text">
+    <!-- <v-btn href="/sample-pages" variant="text">
       {{ $t('common.header_sample_page') }}
-    </v-btn>
+    </v-btn> -->
   </div>
 </template>
 
